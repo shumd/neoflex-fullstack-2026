@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63bb8267-b146-4183-bb52-e50a59b14d9a" name="Changes" comment="Create CalculatorRestController with test and GlobalExceptionHandler">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/NeoflexFullstack2026Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/controller/CalculatorAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/controller/CalculatorRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/dto/CalculationRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/dto/CalculationResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/dto/ErrorResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/excepiton/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/service/CalculatorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/service/CalculatorServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/util/ErrorTitleConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/shumilin/neoflexfullstack2026/NeoflexFullstack2026ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/shumilin/neoflexfullstack2026/controller/CalculatorRestControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/shumilin/neoflexfullstack2026/service/CalculatorServiceImplTest.java" beforeDir="false" />
+    <list default="true" id="63bb8267-b146-4183-bb52-e50a59b14d9a" name="Changes" comment="Move backend to new backend directory">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +45,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -86,14 +72,23 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.NeoflexFullstack2026Application.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/danil/IdeaProjects/neoflex-fullstack-2026/src/main/java/ru/shumilin/neoflexfullstack2026",
+    "last_opened_file_path": "/Users/danil/IdeaProjects/neoflex-fullstack-2026",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
@@ -117,7 +112,7 @@
       <recent name="ru.shumilin.neoflexfullstack2026.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorRestControllerTest">
+  <component name="RunManager">
     <configuration name="CalculatorRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="neoflex-fullstack-2026" />
       <extension name="coverage">
@@ -155,12 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CalculatorRestControllerTest" />
-        <item itemvalue="JUnit.CalculatorServiceImplTest" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -170,6 +166,8 @@
       <option name="presentableId" value="Default" />
       <updated>1790090964586</updated>
       <workItem from="1790090965651" duration="7340000" />
+      <workItem from="1790157371096" duration="187000" />
+      <workItem from="1790157590389" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -219,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790097208724</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Move backend to new backend directory">
+      <option name="closed" value="true" />
+      <created>1790157517101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790157517102</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +238,7 @@
     <MESSAGE value="Create CalculationResponseDto" />
     <MESSAGE value="Create CalculatorService with tests" />
     <MESSAGE value="Create CalculatorRestController with test and GlobalExceptionHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create CalculatorRestController with test and GlobalExceptionHandler" />
+    <MESSAGE value="Move backend to new backend directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move backend to new backend directory" />
   </component>
 </project>
