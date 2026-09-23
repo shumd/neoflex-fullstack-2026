@@ -22,7 +22,7 @@ class CalculatorServiceImplTest {
         CalculationResponseDto expected = new CalculationResponseDto(
                 new BigDecimal("108839.09"),
                 new BigDecimal("8839.09")
-        );;
+        );
 
         Assertions.assertEquals(
                 expected,

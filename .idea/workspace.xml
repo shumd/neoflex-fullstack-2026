@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63bb8267-b146-4183-bb52-e50a59b14d9a" name="Changes" comment="Create CalculatorRestController with test and GlobalExceptionHandler">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/NeoflexFullstack2026Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/controller/CalculatorAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/controller/CalculatorRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/dto/CalculationRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/dto/CalculationResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/excepiton/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/service/CalculatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/service/CalculatorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026/util/ErrorTitleConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/shumilin/neoflexfullstack2026/NeoflexFullstack2026ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/shumilin/neoflexfullstack2026/controller/CalculatorRestControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/shumilin/neoflexfullstack2026/service/CalculatorServiceImplTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shumd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shumd/neoflex-fullstack-2026.git&quot;,
+    &quot;accountId&quot;: &quot;32777db7-bc4e-4c3a-b314-d2254533ecae&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3JgmD3C1sDlYixynSiBK3kEeCt4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CalculatorRestControllerTest.executor": "Run",
+    "JUnit.CalculatorServiceImplTest.executor": "Run",
+    "Maven.neoflex-fullstack-2026 [clean].executor": "Run",
+    "Maven.neoflex-fullstack-2026 [compile].executor": "Run",
+    "Maven.neoflex-fullstack-2026 [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.NeoflexFullstack2026Application.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/danil/IdeaProjects/neoflex-fullstack-2026/src/main/java/ru/shumilin/neoflexfullstack2026",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ru/shumilin/neoflexfullstack2026" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.shumilin.neoflexfullstack2026.dto.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.shumilin.neoflexfullstack2026.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorRestControllerTest">
+    <configuration name="CalculatorRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neoflex-fullstack-2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.shumilin.neoflexfullstack2026.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.shumilin.neoflexfullstack2026.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.shumilin.neoflexfullstack2026.controller.CalculatorRestControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neoflex-fullstack-2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.shumilin.neoflexfullstack2026.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.shumilin.neoflexfullstack2026.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.shumilin.neoflexfullstack2026.service.CalculatorServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeoflexFullstack2026Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="neoflex-fullstack-2026" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.shumilin.neoflexfullstack2026.NeoflexFullstack2026Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorRestControllerTest" />
+        <item itemvalue="JUnit.CalculatorServiceImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63bb8267-b146-4183-bb52-e50a59b14d9a" name="Changes" comment="" />
+      <created>1790090964586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790090964586</updated>
+      <workItem from="1790090965651" duration="7340000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1790091143379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790091143380</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add validation and springdoc dependencies to pom.xml">
+      <option name="closed" value="true" />
+      <created>1790092227114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790092227114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create CalculationRequestDto">
+      <option name="closed" value="true" />
+      <created>1790092259123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790092259123</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create CalculationResponseDto">
+      <option name="closed" value="true" />
+      <created>1790092464660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790092464660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create CalculatorService with tests">
+      <option name="closed" value="true" />
+      <created>1790095241346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790095241346</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create CalculatorRestController with test and GlobalExceptionHandler">
+      <option name="closed" value="true" />
+      <created>1790097208724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790097208724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="Add validation and springdoc dependencies to pom.xml" />
+    <MESSAGE value="Create CalculationRequestDto" />
+    <MESSAGE value="Create CalculationResponseDto" />
+    <MESSAGE value="Create CalculatorService with tests" />
+    <MESSAGE value="Create CalculatorRestController with test and GlobalExceptionHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create CalculatorRestController with test and GlobalExceptionHandler" />
+  </component>
+</project>
