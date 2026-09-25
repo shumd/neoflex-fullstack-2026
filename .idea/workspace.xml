@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63bb8267-b146-4183-bb52-e50a59b14d9a" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/ru/shumilin/neoflexfullstack2026/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="63bb8267-b146-4183-bb52-e50a59b14d9a" name="Changes" comment="Add App component with styles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,61 +53,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="3.4841113621145927E-9" />
-      <entry key="MS500" value="0.03154737648865755" />
-      <entry key="S2" value="0.7036082874600746" />
-      <entry key="S5" value="1.323378655033039" />
-      <entry key="S10" value="1.7075374563171148" />
-      <entry key="S30" value="2.363651642684731" />
-      <entry key="S60" value="3.3991647022919143" />
-      <entry key="M2" value="5.868258793403093" />
-      <entry key="M5" value="11.621454974551998" />
-      <entry key="M10" value="18.30233575504715" />
-      <entry key="M15" value="22.431922996581353" />
-      <entry key="M30" value="28.354962340523727" />
-      <entry key="H1" value="32.26212759924946" />
-      <entry key="H2" value="34.51595397532484" />
-      <entry key="H4" value="35.72765251024987" />
-      <entry key="D1" value="36.783592057642124" />
-      <entry key="W1" value="36.96897619594478" />
+      <entry key="MS100" value="1.0315937479889277" />
+      <entry key="MS500" value="1.6950463026585132" />
+      <entry key="S2" value="3.479977907560596" />
+      <entry key="S5" value="5.595963685604315" />
+      <entry key="S10" value="7.257570314519026" />
+      <entry key="S30" value="9.829246721744386" />
+      <entry key="S60" value="11.111245804866071" />
+      <entry key="M2" value="11.990372272305425" />
+      <entry key="M5" value="13.989754627597048" />
+      <entry key="M10" value="19.19990255212488" />
+      <entry key="M15" value="24.012306626170105" />
+      <entry key="M30" value="32.92716566036024" />
+      <entry key="H1" value="40.0593606390289" />
+      <entry key="H2" value="44.61374161613885" />
+      <entry key="H4" value="47.19340257778107" />
+      <entry key="D1" value="49.5155956010714" />
+      <entry key="W1" value="49.930379914118625" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.000000000000034" />
-      <entry key="S30" value="1.0000410287943637" />
-      <entry key="S60" value="1.0087854875433646" />
-      <entry key="M2" value="1.1416421610735348" />
-      <entry key="M5" value="1.8370718014404113" />
-      <entry key="M10" value="2.566501131997059" />
-      <entry key="M15" value="2.940033134268173" />
-      <entry key="M30" value="3.409107201531018" />
-      <entry key="H1" value="3.6874072700926757" />
-      <entry key="H2" value="3.839149229668661" />
-      <entry key="H4" value="3.9184006075609332" />
-      <entry key="D1" value="3.9862339451306386" />
-      <entry key="W1" value="3.998029310532865" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.286050948692479E-137" />
+      <entry key="S5" value="2.836762202580012E-55" />
+      <entry key="S10" value="5.326126362169983E-28" />
+      <entry key="S30" value="8.106280736899539E-10" />
+      <entry key="S60" value="2.872107802416887E-5" />
+      <entry key="M2" value="0.006091594059372295" />
+      <entry key="M5" value="0.22646782707034466" />
+      <entry key="M10" value="0.901117971692832" />
+      <entry key="M15" value="1.463229176669096" />
+      <entry key="M30" value="2.4050312390049142" />
+      <entry key="H1" value="3.0971421554270897" />
+      <entry key="H2" value="3.5184793753173698" />
+      <entry key="H4" value="3.7511881092723423" />
+      <entry key="D1" value="3.957365084968332" />
+      <entry key="W1" value="3.993880088193" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.006524127782943519" />
-      <entry key="MS500" value="0.39693080918701584" />
-      <entry key="S2" value="1.4804219531020795" />
-      <entry key="S5" value="2.226240205882716" />
-      <entry key="S10" value="2.653014836450026" />
-      <entry key="S30" value="3.3378833421256777" />
-      <entry key="S60" value="4.392042307298241" />
-      <entry key="M2" value="6.998958550884519" />
-      <entry key="M5" value="13.449781009348497" />
-      <entry key="M10" value="20.862122583267816" />
-      <entry key="M15" value="25.366655308616643" />
-      <entry key="M30" value="31.760890638553107" />
-      <entry key="H1" value="35.947786081912696" />
-      <entry key="H2" value="38.354185000519315" />
-      <entry key="H4" value="39.64558252478338" />
-      <entry key="D1" value="40.7697459269436" />
-      <entry key="W1" value="40.9669940261842" />
+      <entry key="MS100" value="1.0167528186417871" />
+      <entry key="MS500" value="1.688268304673515" />
+      <entry key="S2" value="3.4759523172160853" />
+      <entry key="S5" value="5.593032049347235" />
+      <entry key="S10" value="7.255549998037923" />
+      <entry key="S30" value="9.828262779862253" />
+      <entry key="S60" value="11.11070144109424" />
+      <entry key="M2" value="11.99609220274736" />
+      <entry key="M5" value="14.215011353076072" />
+      <entry key="M10" value="20.09859521619852" />
+      <entry key="M15" value="25.472852068587848" />
+      <entry key="M30" value="35.329931329068714" />
+      <entry key="H1" value="43.155022434351785" />
+      <entry key="H2" value="48.1313737152336" />
+      <entry key="H4" value="50.944137290410765" />
+      <entry key="D1" value="53.47288070885008" />
+      <entry key="W1" value="53.92424846516947" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -231,7 +222,7 @@
       <updated>1790090964586</updated>
       <workItem from="1790090965651" duration="7340000" />
       <workItem from="1790157371096" duration="187000" />
-      <workItem from="1790157590389" duration="2523000" />
+      <workItem from="1790157590389" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -297,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790158163253</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add App component with styles">
+      <option name="closed" value="true" />
+      <created>1790160210038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790160210038</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +310,7 @@
     <MESSAGE value="Create CalculatorRestController with test and GlobalExceptionHandler" />
     <MESSAGE value="Move backend to new backend directory" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Add App component with styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add App component with styles" />
   </component>
 </project>
